@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="testschedulerapi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\DemoCurrencyConverterAPI\\DemoCurrencyConverterAPI\\obj\\Debug\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\DemoCurrencyConverterAPI\\DemoCurrencyConverterAPI\\obj\\Debug\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="testcurdbEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tcp:wrkg6ulln3.database.windows.net,1433;initial catalog=testcurdb;persist security info=True;user id=ameyasqlserver@wrkg6ulln3;password=Mike#1402;multipleactiveresultsets=True;application name=EntityFramework;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\DemoCurrencyConverterAPI\\DemoCurrencyConverterAPI\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='testcurdbEntities']/@connectionString" />
+  </parameter>
+</parameters>

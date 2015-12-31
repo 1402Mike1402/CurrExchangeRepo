@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="testcurdbModelStoreContainer" CdmEntityContainer="testcurdbEntities">
+    <EntitySetMapping Name="Exchange">
+      <EntityTypeMapping TypeName="testcurdbModel.Exchange">
+        <MappingFragment StoreEntitySet="Exchange">
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ConversionRate" ColumnName="ConversionRate" />
+          <ScalarProperty Name="TimeStamp" ColumnName="TimeStamp" />
+          <ScalarProperty Name="ConvertedToCurrency" ColumnName="ConvertedToCurrency" />
+          <ScalarProperty Name="SourceCurrency" ColumnName="SourceCurrency" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
